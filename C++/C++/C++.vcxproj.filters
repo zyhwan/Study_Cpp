@@ -19,6 +19,12 @@
     <Filter Include="소스 파일\윤성우 Chapter8 소스">
       <UniqueIdentifier>{12368fbd-9082-455f-a8eb-81ca74d60fe5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\씹어먹는C++">
+      <UniqueIdentifier>{b297f75f-98c3-4a6d-aeab-ccb7c68b89b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\씹어먹는C++\참조자">
+      <UniqueIdentifier>{b01f9e70-a526-40ee-b7dc-d00ac90e2d60}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter7-2 문제1.cpp">
@@ -53,6 +59,9 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\CPP_Src (『윤성우의 열혈 C++ 프로그래밍』 소스코드)\Chapter 8 source\VirtualDestructor.cpp">
       <Filter>소스 파일\윤성우 Chapter8 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="함수 인자로 레퍼런스 받기.cpp">
+      <Filter>소스 파일\씹어먹는C++\참조자</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
