@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\씹어먹는C++\참조자">
       <UniqueIdentifier>{b01f9e70-a526-40ee-b7dc-d00ac90e2d60}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\씹어먹는C++\new와 delete">
+      <UniqueIdentifier>{30f2e9d4-0bc8-4343-8c71-0a288bdfbc5c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter7-2 문제1.cpp">
@@ -65,6 +68,9 @@
     </ClCompile>
     <ClCompile Include="여러가지 참조자 예시들.cpp">
       <Filter>소스 파일\씹어먹는C++\참조자</Filter>
+    </ClCompile>
+    <ClCompile Include="new로 배열 할당하기.cpp">
+      <Filter>소스 파일\씹어먹는C++\new와 delete</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
