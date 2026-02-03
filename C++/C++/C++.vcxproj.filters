@@ -63,5 +63,8 @@
     <ClCompile Include="함수 인자로 레퍼런스 받기.cpp">
       <Filter>소스 파일\씹어먹는C++\참조자</Filter>
     </ClCompile>
+    <ClCompile Include="여러가지 참조자 예시들.cpp">
+      <Filter>소스 파일\씹어먹는C++\참조자</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
