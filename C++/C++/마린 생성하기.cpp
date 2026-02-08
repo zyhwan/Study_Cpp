@@ -1,0 +1,97 @@
+#include <iostream>
+
+using namespace std;
+
+class Marine {
+	int hp;
+	int coord_x, coord_y;
+	int damage;
+	bool is_dead;
+	char* name; //마린 이름
+public:
+	Marine();
+	Marine(int x, int y, const char* marine_name);
+	Marine(int x, int y);
+	~Marine();
+	int attack(); //데미지 리턴값
+	void be_attacked(int damage_earn); //입는 데미지
+	void move(int x, int y);
+
+	void show_status();
+
+};
+
+Marine::Marine(int x, int y, const char* marine_name)
+{
+	name = new char[strlen(marine_name) + 1];
+	strcpy(name, marine_name);
+
+	coord_x = x;
+	coord_y = y;
+	hp = 50;
+	damage = 5;
+	is_dead = false;
+}
+
+Marine::Marine(int x, int y)
+{
+	coord_x = x;
+	coord_y = y;
+	hp = 50;
+	damage = 5;
+	is_dead = false;
+	name = NULL;
+}
+
+Marine::~Marine()
+{
+	cout << name << " 의 소멸자 호출 ! " << endl;
+	if (name != NULL) {
+		delete[] name;
+	}
+}
+
+int Marine::attack()
+{
+	return damage;
+}
+
+void Marine::be_attacked(int damage_earn)
+{
+	hp -= damage_earn;
+	if (hp <= 0) is_dead = true;
+}
+
+void Marine::move(int x, int y)
+{
+	coord_x = x;
+	coord_y = y;
+}
+
+void Marine::show_status()
+{
+	cout << " *** Marine : " << name << " ***" << endl;
+	cout << " Location : ( " << coord_x << " , " << coord_y << " ) "
+		<< endl;
+	cout << " HP : " << hp << endl;
+}
+
+int main() {
+	Marine* marines[100];
+
+	marines[0] = new Marine(2, 3, "Marine 2");
+	marines[1] = new Marine(1, 5, "Marine 1");
+
+	marines[0]->show_status();
+	marines[1]->show_status();
+
+	cout << endl << "마린 1 이 마린 2 를 공격! " << endl;
+
+	marines[0]->be_attacked(marines[1]->attack());
+
+	marines[0]->show_status();
+	marines[1]->show_status();
+
+	delete marines[0];
+	delete marines[1];
+}
