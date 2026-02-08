@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\씹어먹는C++\new와 delete">
       <UniqueIdentifier>{30f2e9d4-0bc8-4343-8c71-0a288bdfbc5c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\씹어먹는C++\객체 지향 언어">
+      <UniqueIdentifier>{9517e6ba-38a7-4f8c-8dd5-856f15a87505}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter7-2 문제1.cpp">
@@ -74,6 +77,9 @@
     </ClCompile>
     <ClCompile Include="돌아온 마이펫.cpp">
       <Filter>소스 파일\씹어먹는C++\new와 delete</Filter>
+    </ClCompile>
+    <ClCompile Include="날짜 문제.cpp">
+      <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
