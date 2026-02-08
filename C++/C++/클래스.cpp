@@ -66,6 +66,7 @@ void Date::ShowDate() {
 }
 int main() {
     Date day(2011, 3, 1);
+
     day.ShowDate();
 
     day.AddYear(10);
