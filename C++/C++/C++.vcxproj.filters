@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\씹어먹는C++\객체 지향 언어">
       <UniqueIdentifier>{9517e6ba-38a7-4f8c-8dd5-856f15a87505}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\씹어먹는C++\스타크래프트 만들기">
+      <UniqueIdentifier>{0cbfdbd4-349c-4121-a529-a6a179d51d79}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter7-2 문제1.cpp">
@@ -90,8 +93,11 @@
     <ClCompile Include="수학 관련 소프트웨어.cpp">
       <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
     </ClCompile>
-    <ClCompile Include="스타크래프트 만들기.cpp">
-      <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
+    <ClCompile Include="마린 생성하기.cpp">
+      <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
+    </ClCompile>
+    <ClCompile Include="포토캐논 복사하기.cpp">
+      <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
