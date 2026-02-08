@@ -84,7 +84,10 @@
     <ClCompile Include="Date 클래스.cpp">
       <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
     </ClCompile>
-    <ClCompile Include="클래스.cpp">
+    <ClCompile Include="생성자 클래스.cpp">
+      <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
+    </ClCompile>
+    <ClCompile Include="수학 관련 소프트웨어.cpp">
       <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
     </ClCompile>
   </ItemGroup>
