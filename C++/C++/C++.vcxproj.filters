@@ -126,5 +126,8 @@
     <ClCompile Include="문자열 클래스를 만들자.cpp">
       <Filter>소스 파일\씹어먹는C++\내가 만드는 String 클래스</Filter>
     </ClCompile>
+    <ClCompile Include="mutable 사용.cpp">
+      <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
