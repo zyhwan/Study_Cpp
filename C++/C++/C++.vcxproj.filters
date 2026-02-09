@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\씹어먹는C++\객체 지향 언어">
       <UniqueIdentifier>{9517e6ba-38a7-4f8c-8dd5-856f15a87505}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\씹어먹는C++\내가 만드는 String 클래스">
+      <UniqueIdentifier>{1374e0ec-4e24-4772-b1d1-2e9108d773a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter7-2 문제1.cpp">
@@ -119,6 +122,9 @@
     </ClCompile>
     <ClCompile Include="마린 const 함수 추가하기.cpp">
       <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 클래스를 만들자.cpp">
+      <Filter>소스 파일\씹어먹는C++\내가 만드는 String 클래스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
