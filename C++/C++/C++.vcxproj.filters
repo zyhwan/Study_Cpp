@@ -28,11 +28,11 @@
     <Filter Include="소스 파일\씹어먹는C++\new와 delete">
       <UniqueIdentifier>{30f2e9d4-0bc8-4343-8c71-0a288bdfbc5c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\씹어먹는C++\객체 지향 언어">
-      <UniqueIdentifier>{9517e6ba-38a7-4f8c-8dd5-856f15a87505}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\씹어먹는C++\스타크래프트 만들기">
       <UniqueIdentifier>{0cbfdbd4-349c-4121-a529-a6a179d51d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\씹어먹는C++\객체 지향 언어">
+      <UniqueIdentifier>{9517e6ba-38a7-4f8c-8dd5-856f15a87505}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -107,6 +107,15 @@
     </ClCompile>
     <ClCompile Include="마린 수 세기.cpp">
       <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
+    </ClCompile>
+    <ClCompile Include="마린 static 함수.cpp">
+      <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
+    </ClCompile>
+    <ClCompile Include="마린 This 추가하기.cpp">
+      <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
+    </ClCompile>
+    <ClCompile Include="레퍼런스를 리턴하는 함수.cpp">
+      <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
