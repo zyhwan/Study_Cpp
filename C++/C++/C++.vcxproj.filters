@@ -102,5 +102,11 @@
     <ClCompile Include="문자열 클래스 완성하기.cpp">
       <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
     </ClCompile>
+    <ClCompile Include="마린 const 추가하기.cpp">
+      <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
+    </ClCompile>
+    <ClCompile Include="마린 수 세기.cpp">
+      <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
