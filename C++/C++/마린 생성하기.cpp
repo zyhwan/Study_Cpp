@@ -8,6 +8,9 @@ class Marine {
 	int damage;
 	bool is_dead;
 	char* name; //마린 이름
+
+	const int default_damage; //기본 공격력
+
 public:
 	Marine();
 	Marine(int x, int y, const char* marine_name);
@@ -21,7 +24,11 @@ public:
 
 };
 
-Marine::Marine(int x, int y, const char* marine_name)
+Marine::Marine() : hp(50), coord_x(0), coord_y(0), damage(5), is_dead(false), default_damage(5)
+{
+}
+
+Marine::Marine(int x, int y, const char* marine_name) : default_damage(5)
 {
 	name = new char[strlen(marine_name) + 1];
 	strcpy(name, marine_name);
@@ -33,7 +40,7 @@ Marine::Marine(int x, int y, const char* marine_name)
 	is_dead = false;
 }
 
-Marine::Marine(int x, int y)
+Marine::Marine(int x, int y) : default_damage(5)
 {
 	coord_x = x;
 	coord_y = y;
