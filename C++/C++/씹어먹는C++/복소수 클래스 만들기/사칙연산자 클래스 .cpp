@@ -21,7 +21,13 @@ public:
 	Complex operator*(const Complex& c) const;
 	Complex operator/(const Complex& c) const;
 
-	void println() { cout << "(" << real << " , " << img << " )" << endl; }
+
+	Complex& operator+=(const Complex& c);
+	Complex& operator-=(const Complex& c);
+	Complex& operator*=(const Complex& c);
+	Complex& operator/=(const Complex& c);
+
+	void println() { cout << "( " << real << " , " << img << " )" << endl; }
 };
 
 Complex Complex::operator+(const Complex& c) const
@@ -49,6 +55,23 @@ Complex Complex::operator/(const Complex& c) const {
 	return temp;
 }
 
+Complex& Complex::operator+=(const Complex& c) {
+	(*this) = (*this) + c;
+	return *this;
+}
+Complex& Complex::operator-=(const Complex& c) {
+	(*this) = (*this) - c;
+	return *this;
+}
+Complex& Complex::operator*=(const Complex& c) {
+	(*this) = (*this) * c;
+	return *this;
+}
+Complex& Complex::operator/=(const Complex& c) {
+	(*this) = (*this) / c;
+	return *this;
+}
+
 int main() {
 	Complex a(1.0, 2.0);
 	Complex b(3.0, -2.0);
@@ -56,4 +79,10 @@ int main() {
 	Complex c = a * b;
 
 	c.println();
+
+	Complex a1(1.0, 2.0);
+	Complex b1(3.0, -2.0);
+	a1 += b1;
+	a1.println();
+	b1.println();
 }
