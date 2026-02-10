@@ -13,121 +13,79 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\문제">
-      <UniqueIdentifier>{f8d04a40-1404-40b9-b8e5-139e367dfce5}</UniqueIdentifier>
+    <Filter Include="소스 파일\참조자">
+      <UniqueIdentifier>{996cdd60-c4ef-48df-be14-c48bfaf016fb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\윤성우 Chapter8 소스">
-      <UniqueIdentifier>{12368fbd-9082-455f-a8eb-81ca74d60fe5}</UniqueIdentifier>
+    <Filter Include="소스 파일\new와 delete">
+      <UniqueIdentifier>{1d25e8c6-c56b-43f3-bccd-f23e5190aef2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\씹어먹는C++">
-      <UniqueIdentifier>{b297f75f-98c3-4a6d-aeab-ccb7c68b89b9}</UniqueIdentifier>
+    <Filter Include="소스 파일\객체 지향 언어">
+      <UniqueIdentifier>{5caf24dc-22d3-4f2b-8f6c-fb83c89f65ed}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\씹어먹는C++\참조자">
-      <UniqueIdentifier>{b01f9e70-a526-40ee-b7dc-d00ac90e2d60}</UniqueIdentifier>
+    <Filter Include="소스 파일\스타크래프트 만들기">
+      <UniqueIdentifier>{a90fcd38-bb49-4d59-8e06-37679f2f525e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\씹어먹는C++\new와 delete">
-      <UniqueIdentifier>{30f2e9d4-0bc8-4343-8c71-0a288bdfbc5c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\씹어먹는C++\스타크래프트 만들기">
-      <UniqueIdentifier>{0cbfdbd4-349c-4121-a529-a6a179d51d79}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\씹어먹는C++\객체 지향 언어">
-      <UniqueIdentifier>{9517e6ba-38a7-4f8c-8dd5-856f15a87505}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\씹어먹는C++\내가 만드는 String 클래스">
-      <UniqueIdentifier>{1374e0ec-4e24-4772-b1d1-2e9108d773a7}</UniqueIdentifier>
+    <Filter Include="소스 파일\내가 만드는 String 클래스">
+      <UniqueIdentifier>{598e4e66-ace1-4e59-a797-370fb181454f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Chapter7-2 문제1.cpp">
-      <Filter>소스 파일\문제</Filter>
+    <ClCompile Include="씹어먹는C++\참조자\함수 인자로 레퍼런스 받기.cpp">
+      <Filter>소스 파일\참조자</Filter>
     </ClCompile>
-    <ClCompile Include="Chapter7-2 문제2.cpp">
-      <Filter>소스 파일\문제</Filter>
+    <ClCompile Include="씹어먹는C++\참조자\여러가지 참조자 예시들.cpp">
+      <Filter>소스 파일\참조자</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\CPP_Src (『윤성우의 열혈 C++ 프로그래밍』 소스코드)\Chapter 8 source\EmployeeManager2.cpp">
-      <Filter>소스 파일\윤성우 Chapter8 소스</Filter>
+    <ClCompile Include="씹어먹는C++\new와 delete\new로 배열 할당하기.cpp">
+      <Filter>소스 파일\new와 delete</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\CPP_Src (『윤성우의 열혈 C++ 프로그래밍』 소스코드)\Chapter 8 source\EmployeeManager3.cpp">
-      <Filter>소스 파일\윤성우 Chapter8 소스</Filter>
+    <ClCompile Include="씹어먹는C++\new와 delete\돌아온 마이펫.cpp">
+      <Filter>소스 파일\new와 delete</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\CPP_Src (『윤성우의 열혈 C++ 프로그래밍』 소스코드)\Chapter 8 source\EmployeeManager4.cpp">
-      <Filter>소스 파일\윤성우 Chapter8 소스</Filter>
+    <ClCompile Include="씹어먹는C++\객체 지향 언어\Date 클래스.cpp">
+      <Filter>소스 파일\객체 지향 언어</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\CPP_Src (『윤성우의 열혈 C++ 프로그래밍』 소스코드)\Chapter 8 source\EmployeeManager5.cpp">
-      <Filter>소스 파일\윤성우 Chapter8 소스</Filter>
+    <ClCompile Include="씹어먹는C++\객체 지향 언어\mutable 사용.cpp">
+      <Filter>소스 파일\객체 지향 언어</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\CPP_Src (『윤성우의 열혈 C++ 프로그래밍』 소스코드)\Chapter 8 source\FunctionOverride.cpp">
-      <Filter>소스 파일\윤성우 Chapter8 소스</Filter>
+    <ClCompile Include="씹어먹는C++\객체 지향 언어\날짜 문제.cpp">
+      <Filter>소스 파일\객체 지향 언어</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\CPP_Src (『윤성우의 열혈 C++ 프로그래밍』 소스코드)\Chapter 8 source\FunctionVirtualOverride.cpp">
-      <Filter>소스 파일\윤성우 Chapter8 소스</Filter>
+    <ClCompile Include="씹어먹는C++\객체 지향 언어\레퍼런스를 리턴하는 함수.cpp">
+      <Filter>소스 파일\객체 지향 언어</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\CPP_Src (『윤성우의 열혈 C++ 프로그래밍』 소스코드)\Chapter 8 source\ObjectPointer.cpp">
-      <Filter>소스 파일\윤성우 Chapter8 소스</Filter>
+    <ClCompile Include="씹어먹는C++\객체 지향 언어\문자열 클래스 완성하기.cpp">
+      <Filter>소스 파일\객체 지향 언어</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\CPP_Src (『윤성우의 열혈 C++ 프로그래밍』 소스코드)\Chapter 8 source\ReferenceAttribute.cpp">
-      <Filter>소스 파일\윤성우 Chapter8 소스</Filter>
+    <ClCompile Include="씹어먹는C++\객체 지향 언어\생성자 클래스.cpp">
+      <Filter>소스 파일\객체 지향 언어</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\CPP_Src (『윤성우의 열혈 C++ 프로그래밍』 소스코드)\Chapter 8 source\VirtualDestructor.cpp">
-      <Filter>소스 파일\윤성우 Chapter8 소스</Filter>
+    <ClCompile Include="씹어먹는C++\객체 지향 언어\수학 관련 소프트웨어.cpp">
+      <Filter>소스 파일\객체 지향 언어</Filter>
     </ClCompile>
-    <ClCompile Include="함수 인자로 레퍼런스 받기.cpp">
-      <Filter>소스 파일\씹어먹는C++\참조자</Filter>
+    <ClCompile Include="씹어먹는C++\스타크래프트 만들기\마린 const 추가하기.cpp">
+      <Filter>소스 파일\스타크래프트 만들기</Filter>
     </ClCompile>
-    <ClCompile Include="여러가지 참조자 예시들.cpp">
-      <Filter>소스 파일\씹어먹는C++\참조자</Filter>
+    <ClCompile Include="씹어먹는C++\스타크래프트 만들기\마린 const 함수 추가하기.cpp">
+      <Filter>소스 파일\스타크래프트 만들기</Filter>
     </ClCompile>
-    <ClCompile Include="new로 배열 할당하기.cpp">
-      <Filter>소스 파일\씹어먹는C++\new와 delete</Filter>
+    <ClCompile Include="씹어먹는C++\스타크래프트 만들기\마린 static 함수.cpp">
+      <Filter>소스 파일\스타크래프트 만들기</Filter>
     </ClCompile>
-    <ClCompile Include="돌아온 마이펫.cpp">
-      <Filter>소스 파일\씹어먹는C++\new와 delete</Filter>
+    <ClCompile Include="씹어먹는C++\스타크래프트 만들기\마린 This 추가하기.cpp">
+      <Filter>소스 파일\스타크래프트 만들기</Filter>
     </ClCompile>
-    <ClCompile Include="날짜 문제.cpp">
-      <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
+    <ClCompile Include="씹어먹는C++\스타크래프트 만들기\마린 생성하기.cpp">
+      <Filter>소스 파일\스타크래프트 만들기</Filter>
     </ClCompile>
-    <ClCompile Include="Date 클래스.cpp">
-      <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
+    <ClCompile Include="씹어먹는C++\스타크래프트 만들기\마린 수 세기.cpp">
+      <Filter>소스 파일\스타크래프트 만들기</Filter>
     </ClCompile>
-    <ClCompile Include="생성자 클래스.cpp">
-      <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
+    <ClCompile Include="씹어먹는C++\스타크래프트 만들기\포토캐논 복사하기.cpp">
+      <Filter>소스 파일\스타크래프트 만들기</Filter>
     </ClCompile>
-    <ClCompile Include="수학 관련 소프트웨어.cpp">
-      <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
-    </ClCompile>
-    <ClCompile Include="마린 생성하기.cpp">
-      <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
-    </ClCompile>
-    <ClCompile Include="포토캐논 복사하기.cpp">
-      <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
-    </ClCompile>
-    <ClCompile Include="문자열 클래스 완성하기.cpp">
-      <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
-    </ClCompile>
-    <ClCompile Include="마린 const 추가하기.cpp">
-      <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
-    </ClCompile>
-    <ClCompile Include="마린 수 세기.cpp">
-      <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
-    </ClCompile>
-    <ClCompile Include="마린 static 함수.cpp">
-      <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
-    </ClCompile>
-    <ClCompile Include="마린 This 추가하기.cpp">
-      <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
-    </ClCompile>
-    <ClCompile Include="레퍼런스를 리턴하는 함수.cpp">
-      <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
-    </ClCompile>
-    <ClCompile Include="마린 const 함수 추가하기.cpp">
-      <Filter>소스 파일\씹어먹는C++\스타크래프트 만들기</Filter>
-    </ClCompile>
-    <ClCompile Include="문자열 클래스를 만들자.cpp">
-      <Filter>소스 파일\씹어먹는C++\내가 만드는 String 클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="mutable 사용.cpp">
-      <Filter>소스 파일\씹어먹는C++\객체 지향 언어</Filter>
+    <ClCompile Include="씹어먹는C++\내가 만드는 String 클래스\문자열 클래스를 만들자.cpp">
+      <Filter>소스 파일\내가 만드는 String 클래스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
