@@ -111,5 +111,8 @@
     <ClCompile Include="사원 관리 프로그램.cpp">
       <Filter>소스 파일\상속</Filter>
     </ClCompile>
+    <ClCompile Include="씹어먹는C++\상속\사원 관리 프로그램 매니저 추가.cpp">
+      <Filter>소스 파일\상속</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
