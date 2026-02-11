@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 class Complex {
 private:
     double real, img;
@@ -14,7 +16,8 @@ public:
     Complex operator/(const Complex& c) const;
 
     Complex& operator=(const Complex& c); //멤버변수가 변하기 때문에 const 사용x
-    void println() { std::cout << "( " << real << " , " << img << " ) " << std::endl; }
+    void println() { 
+        cout << "( " << real << " , " << img << " ) " << endl; }
 };
 
 Complex Complex::operator+(const Complex& c) const {

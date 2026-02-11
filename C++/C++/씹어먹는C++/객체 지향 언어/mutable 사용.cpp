@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 class A {
     mutable int data_;
 
@@ -9,7 +11,7 @@ public:
         data_ = x;  // °¡´É!
     }
 
-    void PrintData() const { std::cout << "data: " << data_ << std::endl; }
+    void PrintData() const { cout << "data: " << data_ << endl; }
 };
 
 int main() {
