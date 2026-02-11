@@ -108,5 +108,8 @@
     <ClCompile Include="표준 string 클래스.cpp">
       <Filter>소스 파일\상속</Filter>
     </ClCompile>
+    <ClCompile Include="사원 관리 프로그램.cpp">
+      <Filter>소스 파일\상속</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
