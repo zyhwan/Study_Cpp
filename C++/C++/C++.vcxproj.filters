@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\연산자 오버로딩">
       <UniqueIdentifier>{a3c15303-a7d2-4120-b050-0f1d2927a2c2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\상속">
+      <UniqueIdentifier>{2d71b4b2-bed3-4baf-8457-2752610cc70d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="씹어먹는C++\참조자\함수 인자로 레퍼런스 받기.cpp">
@@ -101,6 +104,9 @@
     </ClCompile>
     <ClCompile Include="씹어먹는C++\복소수 클래스 만들기\friend 키워드.cpp">
       <Filter>소스 파일\연산자 오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="표준 string 클래스.cpp">
+      <Filter>소스 파일\상속</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
