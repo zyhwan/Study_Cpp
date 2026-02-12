@@ -117,5 +117,11 @@
     <ClCompile Include="씹어먹는C++\상속\상속 일반 예제.cpp">
       <Filter>소스 파일\상속</Filter>
     </ClCompile>
+    <ClCompile Include="EmployeeList 다시보기.cpp">
+      <Filter>소스 파일\상속</Filter>
+    </ClCompile>
+    <ClCompile Include="virtual 키워드.cpp">
+      <Filter>소스 파일\상속</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
