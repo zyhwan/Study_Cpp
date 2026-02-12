@@ -129,5 +129,8 @@
     <ClCompile Include="가상 소멸자.cpp">
       <Filter>소스 파일\상속</Filter>
     </ClCompile>
+    <ClCompile Include="레퍼런스도 된다.cpp">
+      <Filter>소스 파일\상속</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
