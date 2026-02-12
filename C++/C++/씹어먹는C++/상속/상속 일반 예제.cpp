@@ -9,7 +9,6 @@ public:
 	Base() : s("기반") { cout << "기반 클래스" << endl; }
 
 	void what() { cout << s << endl; }
-
 };
 
 class Derived : public Base {
