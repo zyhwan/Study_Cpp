@@ -117,19 +117,22 @@
     <ClCompile Include="씹어먹는C++\상속\상속 일반 예제.cpp">
       <Filter>소스 파일\상속</Filter>
     </ClCompile>
-    <ClCompile Include="EmployeeList 다시보기.cpp">
+    <ClCompile Include="씹어먹는C++\상속\EmployeeList 다시보기.cpp">
       <Filter>소스 파일\상속</Filter>
     </ClCompile>
-    <ClCompile Include="virtual 키워드.cpp">
+    <ClCompile Include="씹어먹는C++\상속\override 키워드.cpp">
       <Filter>소스 파일\상속</Filter>
     </ClCompile>
-    <ClCompile Include="override 키워드.cpp">
+    <ClCompile Include="씹어먹는C++\상속\virtual 키워드.cpp">
       <Filter>소스 파일\상속</Filter>
     </ClCompile>
-    <ClCompile Include="가상 소멸자.cpp">
+    <ClCompile Include="씹어먹는C++\상속\가상 소멸자.cpp">
       <Filter>소스 파일\상속</Filter>
     </ClCompile>
-    <ClCompile Include="레퍼런스도 된다.cpp">
+    <ClCompile Include="씹어먹는C++\상속\레퍼런스도 된다.cpp">
+      <Filter>소스 파일\상속</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\상속\순수 가상 함수와 추상 클래스.cpp">
       <Filter>소스 파일\상속</Filter>
     </ClCompile>
   </ItemGroup>
