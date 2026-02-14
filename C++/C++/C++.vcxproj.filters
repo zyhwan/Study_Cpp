@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\상속">
       <UniqueIdentifier>{2d71b4b2-bed3-4baf-8457-2752610cc70d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\입출력 라이브러리">
+      <UniqueIdentifier>{6437193f-45e1-4c27-875a-e6b0ad4664ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="씹어먹는C++\참조자\함수 인자로 레퍼런스 받기.cpp">
@@ -137,6 +140,9 @@
     </ClCompile>
     <ClCompile Include="씹어먹는C++\상속\다중 상속.cpp">
       <Filter>소스 파일\상속</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제.cpp">
+      <Filter>소스 파일\입출력 라이브러리</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
