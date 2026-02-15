@@ -304,7 +304,10 @@
     <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제10.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제11.cpp" />
+    <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제11.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제12.cpp" />
     <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
