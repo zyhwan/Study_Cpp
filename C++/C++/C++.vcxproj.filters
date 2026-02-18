@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\입출력 라이브러리">
       <UniqueIdentifier>{6437193f-45e1-4c27-875a-e6b0ad4664ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\템플릿">
+      <UniqueIdentifier>{1ba010ec-2db7-4c7d-b70a-a60779449bde}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="씹어먹는C++\참조자\함수 인자로 레퍼런스 받기.cpp">
@@ -155,6 +158,33 @@
     </ClCompile>
     <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제5.cpp">
       <Filter>소스 파일\입출력 라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제6.cpp">
+      <Filter>소스 파일\입출력 라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제7.cpp">
+      <Filter>소스 파일\입출력 라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제8.cpp">
+      <Filter>소스 파일\입출력 라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제9.cpp">
+      <Filter>소스 파일\입출력 라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제10.cpp">
+      <Filter>소스 파일\입출력 라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제11.cpp">
+      <Filter>소스 파일\입출력 라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제12.cpp">
+      <Filter>소스 파일\입출력 라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제13.cpp">
+      <Filter>소스 파일\입출력 라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector 예제 클래스.cpp">
+      <Filter>소스 파일\템플릿</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
