@@ -79,3 +79,6 @@ int main()
     cout << "두번째 원소 : " << str_vec[1] << endl;
 	return 0;
 }
+
+// 위와 같이 클래스 템플릿에 인자를 전달해서 실제 코드를 생성하는 것을 
+// 클래스 템플릿 인스턴스화 (class template instantiation) 라고 합니다.
