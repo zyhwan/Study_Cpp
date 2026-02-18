@@ -195,5 +195,8 @@
     <ClCompile Include="씹어먹는C++\템플릿\함수 템플릿.cpp">
       <Filter>소스 파일\템플릿</Filter>
     </ClCompile>
+    <ClCompile Include="씹어먹는C++\템플릿\함수 템플릿 (버블 정렬).cpp">
+      <Filter>소스 파일\템플릿</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

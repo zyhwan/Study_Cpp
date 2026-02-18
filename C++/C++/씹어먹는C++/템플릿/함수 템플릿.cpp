@@ -17,12 +17,9 @@ int main() {
 	//컴파일러가 자동으로 알아서 Max<int>(a, b)로 타입을 추정해 인스턴스화 한다.
 	cout << "Max (" << a << "," << b << ") ? : " << max(a, b) << endl;
 
-
 	//string은 사전식 비교 규칙을 따르기 때문에 world가 출력됨.
 	string s = "hello", t = "world";
 	cout << "Max (" << s << "," << t << ") ? : " << max(s, t) << endl;
 	
-
-
 	return 0;
 }
