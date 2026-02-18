@@ -183,7 +183,10 @@
     <ClCompile Include="씹어먹는C++\입출력 라이브러리\입출력 예제13.cpp">
       <Filter>소스 파일\입출력 라이브러리</Filter>
     </ClCompile>
-    <ClCompile Include="Vector 예제 클래스.cpp">
+    <ClCompile Include="씹어먹는C++\템플릿\Vector 예제 클래스.cpp">
+      <Filter>소스 파일\템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\템플릿\C++템플릿.cpp">
       <Filter>소스 파일\템플릿</Filter>
     </ClCompile>
   </ItemGroup>

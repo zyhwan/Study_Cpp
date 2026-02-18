@@ -50,7 +50,15 @@ public:
 
 int main()
 {
+	Vector s;
 
+	s.push_back("Hello World");
+
+	for (int i = 0; i < s.size(); ++i) {
+		cout << s[i] << endl;
+	}
+	
+	return 0;
 }
 
 // 위와 같은 경우엔 string 타입의 데이터 밖에 저장할 수 없다.
