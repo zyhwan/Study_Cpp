@@ -364,7 +364,10 @@
     <ClCompile Include="씹어먹는C++\템플릿\Vector 예제 클래스.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="씹어먹는C++\템플릿\템플릿 특수화.cpp" />
+    <ClCompile Include="씹어먹는C++\템플릿\템플릿 특수화.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\템플릿\함수 템플릿.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
