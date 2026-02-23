@@ -57,6 +57,9 @@ public:
     }
 };
 
+// 함수는 아니지만 함수 인 척을 하는 객체를 함수 객체 
+// (Function Object), 혹은 줄여서 Functor 라고 부릅니다
+
 template <typename Cont>
 void bubble_sort(Cont& cont) {
     for (int i = 0; i < cont.size(); i++) {
