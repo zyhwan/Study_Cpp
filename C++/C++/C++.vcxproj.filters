@@ -207,5 +207,8 @@
     <ClCompile Include="씹어먹는C++\템플릿\타입이 아닌 템플릿 인자.cpp">
       <Filter>소스 파일\템플릿</Filter>
     </ClCompile>
+    <ClCompile Include="씹어먹는C++\템플릿\디폴트 템플릿 인자.cpp">
+      <Filter>소스 파일\템플릿</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
