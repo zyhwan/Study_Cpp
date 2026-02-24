@@ -21,5 +21,6 @@ int main()
 {
 	cout << StrCat(string("this"), " ", "is", " ", string("a"),
 		" ", string("sentence")) << endl;
+
 	return 0;
 }
