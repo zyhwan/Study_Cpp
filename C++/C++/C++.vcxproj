@@ -370,7 +370,10 @@
     <ClCompile Include="씹어먹는C++\템플릿\디폴트 템플릿 인자.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="씹어먹는C++\템플릿\임의의 개수의 문자열을 합치는 함수.cpp" />
+    <ClCompile Include="씹어먹는C++\템플릿\임의의 개수의 문자열을 합치는 함수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\템플릿\임의의 개수의 문자열을 합치는 함수2.cpp" />
     <ClCompile Include="씹어먹는C++\템플릿\타입이 아닌 템플릿 인자(배열 array).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
