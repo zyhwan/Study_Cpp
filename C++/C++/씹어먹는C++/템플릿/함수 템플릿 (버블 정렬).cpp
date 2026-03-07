@@ -69,7 +69,7 @@ void bubble_sort(Cont& cont) {
 }
 // 이 bubble_sort 템플릿 함수를 사용하기 위해서 Vector클래스에 operator[]와 
 // size(), swap()을 정의했다.  하지 만 이런 필요 함수들이 정의되어 있지 않으면
-// 이 템플릿 함수는 사용할 수 없다.
+// 이 템플릿 함수는 사용할 수 없다.  
 
 
 int main() {
