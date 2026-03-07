@@ -198,5 +198,26 @@
     <ClCompile Include="씹어먹는C++\템플릿\함수 템플릿 (버블 정렬).cpp">
       <Filter>소스 파일\템플릿</Filter>
     </ClCompile>
+    <ClCompile Include="씹어먹는C++\템플릿\함수 템플릿 (버블 정렬 내림차순).cpp">
+      <Filter>소스 파일\템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\템플릿\타입이 아닌 템플릿 인자(배열 array).cpp">
+      <Filter>소스 파일\템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\템플릿\타입이 아닌 템플릿 인자.cpp">
+      <Filter>소스 파일\템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\템플릿\디폴트 템플릿 인자.cpp">
+      <Filter>소스 파일\템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\템플릿\가변길이 템플릿.cpp">
+      <Filter>소스 파일\템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\템플릿\임의의 개수의 문자열을 합치는 함수.cpp">
+      <Filter>소스 파일\템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="씹어먹는C++\템플릿\임의의 개수의 문자열을 합치는 함수2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

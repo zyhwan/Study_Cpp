@@ -25,5 +25,6 @@ int main() {
 	std::cout << "다시 읽으면 : " << s << std::endl;
 }
 
+
 //출력 결과
 // hello world 두 번째 단어 맨 앞글자 : w 다시 읽으면 : world
