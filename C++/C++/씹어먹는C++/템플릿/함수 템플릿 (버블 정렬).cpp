@@ -7,7 +7,7 @@ class Vector {
     int length;
 
 public:
-    // 어떤 타입을 보관하는지
+    // 어떤 타입을 보관하는지 
     typedef T value_type;
 
     // 생성자
