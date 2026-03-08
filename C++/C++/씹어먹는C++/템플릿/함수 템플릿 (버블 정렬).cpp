@@ -32,7 +32,7 @@ public:
     // 임의의 위치의 원소에 접근한다.
     T operator[](int i) { return data[i]; }
 
-    // x 번째 위치한 원소를 제거한다.
+    // x번째 위치한 원소를 제거한다.
     void remove(int x) {
         for (int i = x + 1; i < length; i++) {
             data[i - 1] = data[i];
