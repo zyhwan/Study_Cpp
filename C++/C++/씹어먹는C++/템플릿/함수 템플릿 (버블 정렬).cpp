@@ -43,7 +43,7 @@ public:
     // 현재 벡터의 크기를 구한다.
     int size() { return length; }
 
-    // i 번째 원소와 j번째 원소 위치를 바꾼다.
+    // i번째 원소와 j번째 원소 위치를 바꾼다.
     void swap(int i, int j) {
         T temp = data[i];
         data[i] = data[j];
