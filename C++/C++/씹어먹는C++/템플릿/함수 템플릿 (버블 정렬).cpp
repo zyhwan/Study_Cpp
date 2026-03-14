@@ -40,7 +40,7 @@ public:
         length--;
     }
 
-    // 현재 벡터의 크기를 구한다.
+    // 현재 벡터의 크기를 구한다. 
     int size() { return length; }
 
     // i번째 원소와 j번째 원소 위치를 바꾼다.
